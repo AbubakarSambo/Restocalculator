@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/abubakarsambo/AndroidStudioProjects/CalcTip/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/abubakarsambo/AndroidStudioProjects/CalcTip/app/build/intermediates/pre-dexed/debug/classes-35414b723ce3faaf5fab61daae5b8c138e08929d.jar" />
+    </item>
+    <item
+        jar="/Users/abubakarsambo/AndroidStudioProjects/CalcTip/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/abubakarsambo/AndroidStudioProjects/CalcTip/app/build/intermediates/pre-dexed/debug/classes-c43339d3a6a19b9099e56c994bdf687e40b4fbae.jar" />
+    </item>
+    <item
+        jar="/Users/abubakarsambo/AndroidStudioProjects/CalcTip/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/abubakarsambo/AndroidStudioProjects/CalcTip/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-1a43b97e589df5d082c4f018f73bf20643d26500.jar" />
+    </item>
+    <item
+        jar="/Users/abubakarsambo/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/abubakarsambo/AndroidStudioProjects/CalcTip/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-f2db7d00aa21f075facf6d70f81103fd2e960c22.jar" />
+    </item>
+
+</items>

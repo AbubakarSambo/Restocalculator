@@ -1,0 +1,242 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.abubakarsambo.calctip.SplitBill">
+
+    <TextView   android:id="@+id/topmsg"
+        android:text="@string/no_of_ppl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText   android:id="@+id/no_of_ppl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enternum"
+        android:layout_below="@id/topmsg"
+        android:inputType="numberDecimal"
+
+        />
+
+
+
+    <TextView   android:id="@+id/entername"
+        android:text="@string/entername_amt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/no_of_ppl"
+        />
+
+
+
+    <EditText   android:id="@+id/name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/entername"
+        android:inputType="textPersonName"
+        android:hint="Enter item"
+
+        />
+
+    <EditText   android:id="@+id/name1amt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/entername"
+        android:layout_toRightOf="@id/name1"
+        android:inputType="text"
+        android:hint="Amount"
+
+        />
+
+
+
+    <RadioGroup android:id="@+id/radio_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name1"
+        android:orientation="horizontal"
+        >
+
+
+        <RadioButton android:id="@+id/high_button_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/high"
+            android:checked="true"
+            />
+
+        <RadioButton android:id="@+id/mid_button_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mid"/>
+
+        <RadioButton android:id="@+id/low_button_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/low"
+
+            />
+
+    </RadioGroup>
+
+
+    <EditText   android:id="@+id/name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radio_view"
+        android:inputType="textPersonName"
+        android:hint="Enter item"
+
+        />
+
+    <EditText   android:id="@+id/name2amt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radio_view"
+        android:layout_toRightOf="@id/name2"
+        android:inputType="text"
+        android:hint="Amount"
+
+        />
+
+    <RadioGroup android:id="@+id/radio_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name2"
+        android:orientation="horizontal"
+        >
+
+
+        <RadioButton android:id="@+id/high_button_view2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/high"
+            android:checked="true"
+            />
+
+        <RadioButton android:id="@+id/mid_button_view2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mid"/>
+
+        <RadioButton android:id="@+id/low_button_view2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/low"
+
+            />
+
+    </RadioGroup>
+
+    <EditText   android:id="@+id/name3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radio_view2"
+        android:inputType="textPersonName"
+        android:hint="Enter item"
+
+        />
+
+    <EditText   android:id="@+id/name3amt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radio_view2"
+        android:layout_toRightOf="@id/name3"
+        android:inputType="text"
+        android:hint="Amount"
+
+        />
+
+    <RadioGroup android:id="@+id/radio_view3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name3"
+        android:orientation="horizontal"
+        >
+
+
+        <RadioButton android:id="@+id/high_button_view3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/high"
+            android:checked="true"
+            />
+
+        <RadioButton android:id="@+id/mid_button_view3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mid"/>
+
+        <RadioButton android:id="@+id/low_button_view3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/low"
+
+            />
+
+    </RadioGroup>
+
+    <EditText   android:id="@+id/name4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radio_view3"
+        android:inputType="textPersonName"
+        android:hint="Enter item"
+
+        />
+
+    <EditText   android:id="@+id/name4amt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radio_view3"
+        android:layout_toRightOf="@id/name4"
+        android:inputType="text"
+        android:hint="Amount"
+
+        />
+
+    <RadioGroup android:id="@+id/radio_view4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name4"
+        android:orientation="horizontal"
+        >
+
+
+        <RadioButton android:id="@+id/high_button_view4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/high"
+            android:checked="true"
+            />
+
+        <RadioButton android:id="@+id/mid_button_view4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mid"/>
+
+        <RadioButton android:id="@+id/low_button_view4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/low"
+
+            />
+
+    </RadioGroup>
+
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radio_view4"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:text="@string/submit"
+        android:onClick="splitter"
+        />
+
+
+</RelativeLayout>

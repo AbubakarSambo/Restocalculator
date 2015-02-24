@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CalcTip</string>
+    <string name="intro_text">How did you enjoy your meal?</string>
+    <string name="action_settings">Settings</string>
+    <string name="high">Excellent!</string>
+    <string name="mid">Okay!</string>
+    <string name="low">Awful!</string>
+    <string name="submit">Submit!</string>
+    <string name="splitter">Split the bill between more people</string>
+    <string name="bill_request_text">Enter the total bill</string>
+    <string name="final_response_text">thank you ya bish</string>
+    <string name="title_activity_split_bill">SplitBill</string>
+
+
+
+    <string name="no_of_ppl">How many people</string>
+    <string name="enternum">Up to 4 people</string>
+    <string name="entername_amt">Enter each item below</string>
+    <string name="enteramt">Total amount</string>
+
+
+</resources>
